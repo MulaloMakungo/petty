@@ -1,8 +1,8 @@
-function area
-var h,b,area;
-h = parseFlaot(2 ("8"));
-b = parseFloat(2 ("7"));
-area = 30* h *b;
-document : write ("height = "+ h+ "< br >");
-document : write (:base = "+ b+ < br >");
-document : write (:area of triangle is "+ area);
+    var side1 = 7;
+    var side2 = 8;
+    var side3 = 9;
+    var s = (side1 + side2 + side3)/2;
+    var area = Math.sqrt(s * ((s - side1) * (s - side2) * (s - side3)));
+
+    console.log(area)
+    
